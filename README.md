@@ -1,4 +1,4 @@
-# GLSL SHADERS BY BILLY MYLES-BERKOUWER
+# GLSL Shaders by Billy Myles-Berkouwer
 *A collection of pure GLSL shaders*
 
 ## How to run the shaders

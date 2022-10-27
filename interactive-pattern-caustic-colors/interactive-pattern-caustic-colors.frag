@@ -14,14 +14,6 @@ void main() {
     float b = 0.0 + sin((coord.y + 100.0 + time + sin(coord.x * 2.0)) + cos(coord.x + 100.0 + time)) / cos(coord.x-coord.y) * 0.5;
     float g = 0.0 + cos((coord.y + 100.0 + time) + sin(coord.y + 100.0 + time)) / cos(coord.x) * 0.2;
 
-    // BLURRED VERSION
-    // float g = 0.0 + cos((coord.y + 100.0 + time) + sin(coord.y + 100.0 + time)) / cos(coord.x) * 1.0;
-    // float b = 0.0 + sin((coord.y + 100.0 + time) + cos(coord.x + 100.0 + time)) / cos(coord.x) * 1.0;
-
-    // DIFFERENT VERSION
-    // float g = 0.0 + cos((coord.y + 100.0 + time) + sin(coord.y + 100.0 + time)) / cos(coord.x) * 0.4;
-    // float b = 0.0 + sin((coord.y + 100.0 + time) + cos(coord.x + 100.0 + time)) / cos(coord.x) * 100.0;
-
     vec3 color = vec3(
         b, 
         g, 

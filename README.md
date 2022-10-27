@@ -2,6 +2,6 @@
 *A collection of pure GLSL shaders*
 
 ## How to run the shaders
-These shaders can be viewed by using Patricio Gonzalez Vivo's [GLSLViewer library](https://github.com/patriciogonzalezvivo/glslViewer).
+These shaders can be executed using Patricio Gonzalez Vivo's [GLSLViewer library](https://github.com/patriciogonzalezvivo/glslViewer). To display them through other means and on other platforms, the inputs need to be altered in the code. 
 
-They are written in pure GLSL, using the inputs accessible to the shaders through this GLSLViewer library. Although GLSL is highly cross-platform, these shaders can only be displayed through Vivo's viewer. To be displayed through other methods, the inputs need to be altered in the code. I will be adapting the best of these to be run on the web using HTML Canvas. These will be accessible at [my website](https://webgl-shaders.netlify.app/).
+I will be adapting the best of these to accept JavaScript inputs so they can be displayed on the web using HTML Canvas. These will be accessible on [my shader portfolio website](https://webgl-shaders.netlify.app/).
